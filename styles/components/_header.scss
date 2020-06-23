@@ -1,0 +1,49 @@
+.header {
+  margin-bottom: 2.2rem;
+
+  &__wrapper-title {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.5px solid var(--header-border-color);
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 0.3rem;
+  }
+
+  &__subtitle,
+  &__switcher-title {
+    font-size: 0.8em;
+    color: var(--secondary-text-color);
+  }
+
+  &__switcher-title {
+    font-size: 1em;
+  }
+
+  &__wrapper-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    &__wrapper-title {
+      margin: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    &__switcher-title {
+      margin-right: 0.5rem;
+    }
+  }
+}

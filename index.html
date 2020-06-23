@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body class="dark-theme">
+    <main class="container">
+      <header class="header">
+        <div class="header__wrapper-title">
+          <h1 class="header__title">Social Media Dashboard</h1>
+          <p class="header__subtitle">
+            <strong>Total Followers: 23,004</strong>
+          </p>
+        </div>
+        <div class="header__wrapper-switcher">
+          <p class="header__switcher-title">
+            <strong>Dark Mode</strong>
+          </p>
+          <label class="switcher">
+            <input type="checkbox" class="switcher__field" />
+            <span class="switcher__slider"></span>
+          </label>
+        </div>
+      </header>
+      <section class="social-section">
+        <div class="cards-grid">
+          <div class="card card--facebook">
+            <div class="card__social">
+              <img
+                src="/images/icon-facebook.svg"
+                alt="Facebook"
+                class="card__social-img"
+              />
+              <p class="card__social-nickname">
+                <strong>@nathanf</strong>
+              </p>
+            </div>
+            <div class="card__counter">
+              <p class="card__counter-number">
+                <strong>1987</strong>
+              </p>
+              <p class="card__counter-title">followers</p>
+            </div>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>12 Today</strong>
+              </p>
+            </div>
+          </div>
+          <div class="card card--twitter">
+            <div class="card__social">
+              <img
+                src="/images/icon-twitter.svg"
+                alt="Twitter"
+                class="card__social-img"
+              />
+              <p class="card__social-nickname">
+                <strong>@nathanf</strong>
+              </p>
+            </div>
+            <div class="card__counter">
+              <p class="card__counter-number">
+                <strong>1044</strong>
+              </p>
+              <p class="card__counter-title">followers</p>
+            </div>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>99 Today</strong>
+              </p>
+            </div>
+          </div>
+          <div class="card card--instagram">
+            <div class="card__social">
+              <img
+                src="/images/icon-instagram.svg"
+                alt="Instagram"
+                class="card__social-img"
+              />
+              <p class="card__social-nickname">
+                <strong>@realnathanf</strong>
+              </p>
+            </div>
+            <div class="card__counter">
+              <p class="card__counter-number">
+                <strong>11k</strong>
+              </p>
+              <p class="card__counter-title">followers</p>
+            </div>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>1099 Today</strong>
+              </p>
+            </div>
+          </div>
+          <div class="card card--youtube">
+            <div class="card__social">
+              <img
+                src="/images/icon-youtube.svg"
+                alt="YouTube"
+                class="card__social-img"
+              />
+              <p class="card__social-nickname">
+                <strong>Nathan F.</strong>
+              </p>
+            </div>
+            <div class="card__counter">
+              <p class="card__counter-number">
+                <strong>8239</strong>
+              </p>
+              <p class="card__counter-title">followers</p>
+            </div>
+            <div class="status">
+              <img
+                src="/images/icon-down.svg"
+                alt="Down"
+                class="status__arrow"
+              />
+              <p class="status__text status__text--down">
+                <strong>144 Today</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="overview-section">
+        <h2 class="overview-section__title">Overview - Today</h2>
+        <div class="cards-grid">
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Page Views</strong>
+            </p>
+            <img
+              src="/images/icon-facebook.svg"
+              alt="Facebook"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>87</strong>
+            </p>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>3%</strong>
+              </p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Likes</strong>
+            </p>
+            <img
+              src="/images/icon-facebook.svg"
+              alt="Facebook"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>52</strong>
+            </p>
+            <div class="status">
+              <img
+                src="/images/icon-down.svg"
+                alt="Down"
+                class="status__arrow"
+              />
+              <p class="status__text status__text--down">
+                <strong>2%</strong>
+              </p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Likes</strong>
+            </p>
+            <img
+              src="/images/icon-instagram.svg"
+              alt="Instagram"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>5462</strong>
+            </p>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>2257%</strong>
+              </p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Profile Views</strong>
+            </p>
+            <img
+              src="/images/icon-instagram.svg"
+              alt="Instagram"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>52k</strong>
+            </p>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>1375%</strong>
+              </p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Retweets</strong>
+            </p>
+            <img
+              src="/images/icon-twitter.svg"
+              alt="Twitter"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>117</strong>
+            </p>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>303%</strong>
+              </p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Likes</strong>
+            </p>
+            <img
+              src="/images/icon-twitter.svg"
+              alt="Twitter"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>507</strong>
+            </p>
+            <div class="status">
+              <img src="/images/icon-up.svg" alt="Up" class="status__arrow" />
+              <p class="status__text status__text--up">
+                <strong>553%</strong>
+              </p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Likes</strong>
+            </p>
+            <img
+              src="/images/icon-youtube.svg"
+              alt="YouTube"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>107</strong>
+            </p>
+            <div class="status">
+              <img
+                src="/images/icon-down.svg"
+                alt="Down"
+                class="status__arrow"
+              />
+              <p class="status__text status__text--down">
+                <strong>19%</strong>
+              </p>
+            </div>
+          </div>
+          <div class="overview-card">
+            <p class="overview-card__title">
+              <strong>Total Views</strong>
+            </p>
+            <img
+              src="/images/icon-youtube.svg"
+              alt="YouTube"
+              class="overview-card__img"
+            />
+            <p class="overview-card__counter">
+              <strong>1407</strong>
+            </p>
+            <div class="status">
+              <img
+                src="/images/icon-down.svg"
+                alt="Down"
+                class="status__arrow"
+              />
+              <p class="status__text status__text--down">
+                <strong>12%</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

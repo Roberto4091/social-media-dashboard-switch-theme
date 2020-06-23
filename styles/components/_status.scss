@@ -1,0 +1,22 @@
+.status {
+  display: inline-flex;
+  align-items: center;
+
+  &__arrow {
+    width: 0.7rem;
+    display: block;
+    margin-right: 0.3rem;
+  }
+
+  &__text {
+    font-size: 0.8em;
+
+    &--up {
+      color: var(--lime-green);
+    }
+
+    &--down {
+      color: var(--bright-red);
+    }
+  }
+}
